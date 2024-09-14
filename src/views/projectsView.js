@@ -157,7 +157,7 @@ function handleReadMoreClick() {
     }
 }
 
-// Функционалност за "Read More" бутони
+
 function addReadMoreFunctionality() {
     document.querySelectorAll('.read-more').forEach(button => {
         button.addEventListener('click', handleReadMoreClick);
@@ -166,7 +166,7 @@ function addReadMoreFunctionality() {
 
 
 
-// Настройка на навигацията (pagination)
+
 function setupPagination(totalPages) {
     document.querySelectorAll('.page-link').forEach(link => {
         link.addEventListener('click', (e) => {
@@ -178,7 +178,7 @@ function setupPagination(totalPages) {
     });
 }
 
-// Стартова функция за зареждане на страницата
+
 export function projectsView() {
-    renderPage(1);  // Първоначално зареждаме страница 1
+    renderPage(1); 
 }
